@@ -257,7 +257,7 @@ function App() {
         return;
       }
 
-      const response = await fetch("https://vi-notes-07o3.onrender.com/api/auth/signup", {
+      const response = await fetch("https://vi-notes-07o3.onrender.com/api/auth/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
