@@ -8,8 +8,9 @@ dotenv.config({ path: path.join(__dirname, ".env") });
 
 const app = express();
 
+// Change your CORS line to this:
 app.use(cors({
-  origin: ["http://localhost:5173", "https://your-project-name.vercel.app"], 
+  origin: "https://vi-notes-one.vercel.app", 
   credentials: true
 }));
 
